@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	height: 110%;	
+	margin: 0;
+	overflow-x: hidden;
+}
+#navbar {
+	height : 75px;
+	position: fixed;
+	width: 100%;
+	 background-image:url(../img/navbar_sky.png);
+	 color: white;
+}
+#navbar li {
+	display: block;
+}
+
+#pagebody {
+	top: 75px;
+	height: 100%;
+	
+}
+
+.category {
+	height: 1000px;
+	padding: 25px;
+}
+.innerctaegory {
+	height:100%;
+}
+.helper {
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#home .background-home {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#home {
+	/*background-image:url(../img/second_back.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center*/}
+
+#logocontainer {
+	height: 100%;
+	margin: 0 auto;
+	display: table;
+}
+
+#home img {
+	width: 700px;
+}
+
+#history {
+	background-color: red;	
+}
+#characters {
+	background-color: yellow;	
+}
+
+.active {
+	border-bottom: rgba(61,209,255,0.75) solid 4px;
+}
+
+.navlink {
+	height: 100%;
+	line-height: 75px;
+	text-align: center;
+	font-size: 18px;
+	color: #EFEFEF;
+	text-decoration:none;
+
+}
+
+.navblock {
+	/* Must match script.js time */
+	transition: width 0.7s ease;
+}
+
+#logo {
+	height: 100%;
+	line-height: 75px;
+	text-align: center;	
+}
+
+.background-home {
+	border: 0;
+    position: absolute;
+    height: 1000px;
+
+    z-index: -10;
+}
+
+
+/* Liens */
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+/* Custom columns */
+
+.col-1 {
+	display: inline-block;
+	width: calc((100%/12)*1);
+}
+
+.col-2 {
+	width: calc((100%/12)*2);
+}
+
+.col-3 {
+	width: calc((100%/12)*3);
+}
+
+.col-4 {
+	display: inline-block;
+	width: calc((100%/12)*4);
+}
+
+.col-5 {
+	width: calc((100%/12)*5);
+}
+
+.col-6 {
+	display: inline-block;
+	width: calc((100%/12)*6);
+}
+
+.col-7 {
+	width: calc((100%/12)*7);
+}
+
+.col-8 {
+	width: calc((100%/12)*8);
+}
+
+.col-9 {
+	width: calc((100%/12)*9);
+}
+
+.col-10 {
+	width: calc((100%/12)*10);
+}
+
+.col-11 {
+	width: calc((100%/12)*11);
+}
+
+.col-12 {
+	width: calc((100%/12)*12);
+}
